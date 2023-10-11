@@ -1,10 +1,5 @@
-'''
-pip install deepface
-https://github.com/serengil/deepface
-Read more at: https://viso.ai/computer-vision/deepface/
+# https://github.com/serengil/deepface
 
-db_path="C:/Users/miche/Desktop/Python/FaceRecognition/db"
-'''
 from deepface import DeepFace
 import cv2
 import time

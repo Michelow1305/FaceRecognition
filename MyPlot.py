@@ -4,9 +4,9 @@ import seaborn as sns
 
 def plot_face_data(data):
     # Extract relevant data from the JSON
-    emotions = data[0]['emotion']
-    gender = data[0]['gender']
     race = data[0]['race']
+    gender = data[0]['gender']
+    emotions = data[0]['emotion']
 
     # Create subplots for emotions, gender, and race
     fig, axes = plt.subplots(1, 3, figsize=(15, 4))

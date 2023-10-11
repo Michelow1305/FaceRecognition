@@ -2,7 +2,7 @@ import cv2
 from cv2 import Mat
 import os
 
-# Define the directory where you want to save the snapshots
+# Define the directory where to save the snapshots
 save_directory = "snapshots/"
 
 
@@ -14,7 +14,7 @@ def handleTemporaryImage(i: int, frame: Mat):
     print(f"Snapshot saved!")
 
     # delete the previous image
-    deleteImage(i-1)
+    deleteImage(i - 1)
     return image_path
 
 
